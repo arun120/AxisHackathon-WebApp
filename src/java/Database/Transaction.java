@@ -96,7 +96,7 @@ public class Transaction {
     }
     
     
-     public static List<Transaction> getAll(String dept){
+     public static List<Transaction> getAll(){
         List<Transaction> list=new ArrayList<Transaction>();
         Connection conbatch=null;
         Statement stmt=null;
